@@ -11,5 +11,14 @@ public class BukuMain17 {
         bk17.terjual(5);
         bk17.gantiHarga(60000);
         bk17.TampilInformasi(args);
+
+        Buku17 bk172 = new Buku17("One Piece", "Luffy", 160, 29, 59000);
+        bk172.terjual(11);
+        bk172.TampilInformasi(args);
+
+        Buku17 bkLuthfi = new Buku17("Ghibli", "Luthfi", 150, 20, 45000);
+        bkLuthfi.TampilInformasi(args);
+
     }
+    
 }
