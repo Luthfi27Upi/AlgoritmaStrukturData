@@ -61,8 +61,8 @@ sehingga proses pengurangan hanya dapat dilakukan jika stok masih ada (lebih bes
 
 5. Menurut Anda, mengapa method restock() mempunyai satu parameter berupa bilangan int<p><b> Karena parameter tersebut digunakan untuk menentukan jumlah buku yang akan ditambahkan ke dalam stok buku. Dengan menggunakan parameter ini, pengguna dapat menentukan jumlah buku yang ingin ditambahkan saat melakukan operasi restock.</b></p>
 
-6. Commit dan push kode program ke Github
-![alt text](image-7.png)
+6. Commit dan push kode program ke Github<p>
+![alt text](image-7.png)</p>
 <br><br>
 
 <b>2.2 Percobaan 2 : Instansi Object, serta mengakses Atribut dan Method</b>
@@ -124,4 +124,5 @@ secara berurutan? Jelaskan alasannya!<p>
 berparameter dari class Buku!<p>
 <b><i>Buku17 bkLuthfi = new Buku17("Ghibli", "Luthfi", 150, 20, 45000);</p><p></i>
 Lalu jika ingin menampilkan objek tersebut bisa dipanggil dengan menggunakan bkLuthfi.TampilInformasi();
-6. Commit dan Push ke GitHub
+6. Commit dan Push ke GitHub<p>
+![alt text](image-15.png)</p>
