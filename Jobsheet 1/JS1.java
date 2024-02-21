@@ -1,5 +1,12 @@
 public class JS1 {
-    public static void main(String[] args){
-        System.out.println("HelloWorld");
+    int nim;
+    String nama;
+
+    int setNim(int nim){
+        this.nim = nim;
+        return this.nim;
+    }
+    void setName(String nm){
+        this.nama = nm;
     }
 }
