@@ -63,7 +63,7 @@ sehingga proses pengurangan hanya dapat dilakukan jika stok masih ada (lebih bes
 
 6. Commit dan push kode program ke Github<p>
 ![alt text](image-7.png)</p>
-<br><br>
+<br>
 
 <b>2.2 Percobaan 2 : Instansi Object, serta mengakses Atribut dan Method</b>
 
