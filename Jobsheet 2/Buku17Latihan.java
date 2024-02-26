@@ -1,4 +1,3 @@
-
 public class Buku17Latihan {
     String judul, pengarang;
     int halaman, stok, harga, terjual;

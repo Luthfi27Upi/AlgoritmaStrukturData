@@ -122,7 +122,23 @@ secara berurutan? Jelaskan alasannya!<p>
 <b>Tidak, Method di dalam Class Buku17 tidak harus diakses secara berurutan setelah melakukan instansiasi objek.</p><p>Karena dalam pemrograman Java, urutan pemanggilan method tidak mempengaruhi hasil dari eksekusi program, kecuali ada ketergantungan antara method tersebut yang membutuhkan urutan tertentu.</b></p>
 5. Buat object baru dengan nama buku NamaMahasiswa menggunakan konstruktor
 berparameter dari class Buku!<p>
-<b><i>Buku17 bkLuthfi = new Buku17("Ghibli", "Luthfi", 150, 20, 45000);</p><p></i>
+<b><i>Buku17 bkLuthfi = new Buku17("Ghibli", "Luthfi", 150, 20, 45000);</p><p></i></p></b>
 Lalu jika ingin menampilkan objek tersebut bisa dipanggil dengan menggunakan bkLuthfi.TampilInformasi();
 6. Commit dan Push ke GitHub<p>
 ![alt text](image-15.png)</p>
+<br>
+#
+
+Latihan
+<br><p>
+1. Tambahkan method baru pada class Buku</p>
+Kode Program : 
+![alt text](image-16.png)
+Hasil Kode Program : <p>
+![alt text](image-17.png)</p><p>
+2. Membuat game Dragon dengan konsep OOP</p>
+Kode Program : 
+![alt text](image-18.png)
+![alt text](image-19.png)<br>
+Hasil Kode Program : <p>
+![alt text](image-20.png)
