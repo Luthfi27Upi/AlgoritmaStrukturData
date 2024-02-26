@@ -126,9 +126,9 @@ berparameter dari class Buku!<p>
 Lalu jika ingin menampilkan objek tersebut bisa dipanggil dengan menggunakan bkLuthfi.TampilInformasi();
 6. Commit dan Push ke GitHub<p>
 ![alt text](image-15.png)</p>
-<br>
-
+<hr>
 Latihan
+
 <br><p>
 1. Tambahkan method baru pada class Buku</p>
 Kode Program : 
