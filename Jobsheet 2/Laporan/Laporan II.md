@@ -127,7 +127,6 @@ Lalu jika ingin menampilkan objek tersebut bisa dipanggil dengan menggunakan bkL
 6. Commit dan Push ke GitHub<p>
 ![alt text](image-15.png)</p>
 <br>
-#
 
 Latihan
 <br><p>
