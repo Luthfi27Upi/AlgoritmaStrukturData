@@ -16,7 +16,7 @@
 <b>3.1 Percobaan 1 : Membuat Array dari Object, Mengisi dan Menampilkan</b>
 
 1. Pertama buat file baru dengan format ArrayObjects17.java<p>
-
+![alt text](image-14.png)
 
 2. Kemudian tambahkan Class PersegiPanjang<p>
 ![alt text](image.png)
@@ -77,11 +77,13 @@ pgArray[5].sisi = 20;</i><b><p>
 </b></p>
 4. Modifikasi kode program pada praktikum 3.3 agar length array menjadi inputan dengan Scanner!
 5. Apakah boleh Jika terjadi duplikasi instansiasi array of objek, misalkan saja instansiasi dilakukan 
-pada ppArray[i] sekaligus ppArray[0]?Jelaskan !
+pada ppArray[i] sekaligus ppArray[0]?Jelaskan !<b><p>
+Tidak, karena tidak dapat melakukan duplikasi instansiasi pada elemen array. </b></p>
 
 <b>3.3 Percobaan 3 : Penambahan Operasi Matematika di Dalam Method</b>
 
 1. Pertama Buat File baru dengan Format ArrayBalok17.java<p>
+![alt text](image-15.png)
 
 2. Kemudian tambahkan Class Balok<p>
 ![alt text](image-9.png)
@@ -101,10 +103,11 @@ pada ppArray[i] sekaligus ppArray[0]?Jelaskan !
 <b>3.31 Pertanyaan 3</b>
 
 1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!
-2. Jika diketahui terdapat class Segitiga seperti berikut ini: <p><b><i>public class Segitiga {<p>
+2. Jika diketahui terdapat class Segitiga seperti berikut ini: <p><i>
+    public class Segitiga {<p>
     public int alas;<p>
     public int tinggi;
-}</i></b><p>Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
+}</i><p>Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
 yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.
 3. Tambahkan method hitungLuas() dan hitungKeliling() pada class Segitiga
 tersebut. Asumsi segitiga adalah segitiga siku-siku. (Hint: Anda dapat menggunakan bantuan 
