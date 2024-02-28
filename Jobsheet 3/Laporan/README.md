@@ -42,7 +42,7 @@ Tidak, class yang akan dibuat sebagai array of object tidak harus memiliki atrib
 2. Apakah class PersegiPanjang memiliki konstruktor?Jika tidak, kenapa dilakukan pemanggilan 
 konstruktur pada baris program berikut : <p><i>ppArray[1] = new PersegiPanjang();</i><b><p>
 Tidak, class PersegiPanjang tidak secara eksplisit mendefinisikan konstruktor. Maka akan ada konstruktor default yang disediakan oleh Java secara otomatis.</b>
-3. Apa yang dimaksud dengan kode berikut ini: <p><i>PersegiPanjang[] ppArray = new PersegiPanjang[3];</i>
+3. Apa yang dimaksud dengan kode berikut ini: <p><i>PersegiPanjang[] ppArray = new PersegiPanjang[3];</i></p>
 4. Apa yang dimaksud dengan kode berikut ini: <p><i>
         ppArray[1] = new PersegiPanjang();<p>
         ppArray[1].panjang = 80;<p>
@@ -74,7 +74,7 @@ Contohnya yaitu : 'ppArray' adalah array 2 dimensi yang berisi objek-objek 'Pers
 3. Jika diketahui terdapat class Persegi yang memiliki atribut sisi bertipe integer, maka kode 
 dibawah ini akan memunculkan error saat dijalankan. Mengapa? : <p><i>Persegi[] pgArray = new Persegi[100];<p>
 pgArray[5].sisi = 20;</i><b><p>
-</b>
+</b></p>
 4. Modifikasi kode program pada praktikum 3.3 agar length array menjadi inputan dengan Scanner!
 5. Apakah boleh Jika terjadi duplikasi instansiasi array of objek, misalkan saja instansiasi dilakukan 
 pada ppArray[i] sekaligus ppArray[0]?Jelaskan !
