@@ -77,7 +77,7 @@ dibawah ini akan memunculkan error saat dijalankan. Mengapa? : <p><i>Persegi[] p
 pgArray[5].sisi = 20;</i><b><p>
 Error dikarenakan belum dilakukan instansiasi secara terpisah pada objek pgArray[5] hanya ada instansiasi array pgArray</b></p>
 4. Modifikasi kode program pada praktikum 3.3 agar length array menjadi inputan dengan Scanner!<p><b>
-Berikut adalah kode program yang sudah saya modifikasi :</p><p>
+Berikut adalah kode program yang sudah saya modifikasi :</p></b><p>
 ![alt text](image-22.png)</p><p><b>
 Dan ini adalah hasil outputnya : </b></p><p>
 ![alt text](image-16.png)</p>
