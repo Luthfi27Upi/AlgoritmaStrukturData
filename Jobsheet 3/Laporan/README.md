@@ -15,19 +15,19 @@
 
 <b>3.1 Percobaan 1 : Membuat Array dari Object, Mengisi dan Menampilkan</b>
 
-1. Pertama buat file baru dengan format ArrayObjects17.java
+1. Pertama buat file baru dengan format ArrayObjects17.java<p>
 
 
-2. Kemudian tambahkan Class PersegiPanjang
+2. Kemudian tambahkan Class PersegiPanjang<p>
 ![alt text](image.png)
 
-3. Lalu Buat Array PersegiPanjang dengan 3 Elemen
+3. Lalu Buat Array PersegiPanjang dengan 3 Elemen<p>
 ![alt text](image-1.png)
 
-4. Lalu tambahkan Class Persegi Panjang dengan Atribut
+4. Lalu tambahkan Class Persegi Panjang dengan Atribut<p>
 ![alt text](image-2.png)
 
-5. Terakhir cetak semua Atribut ke object ppArray
+5. Terakhir cetak semua Atribut ke object ppArray<p>
 ![alt text](image-3.png)
 
 6. Dan ini Outputnya<p>
@@ -54,13 +54,13 @@ Karena dengan memisahkannya class PersegiPanjang dapat fous pada operasi yang be
 
 <b>3.2 Percobaan 2 : Menerima Input Isisan Array Menggunakan Looping</b>
 
-1. Tambahkan Import Scanner pada Class ArrayObjects
+1. Tambahkan Import Scanner pada Class ArrayObjects<p>
 ![alt text](image-6.png)
 
-2. Membut Object Scanner untuk menerima input
+2. Membut Object Scanner untuk menerima input<p>
 ![alt text](image-7.png)
 
-3. Melakukan Looping untuk mengakses isi array ppArray
+3. Melakukan Looping untuk mengakses isi array ppArray<p>
 ![alt text](image-8.png)
 
 4. Dan ini Outputnya<p>
@@ -81,18 +81,18 @@ pada ppArray[i] sekaligus ppArray[0]?Jelaskan !
 
 <b>3.3 Percobaan 3 : Penambahan Operasi Matematika di Dalam Method</b>
 
-1. Pertama Buat File baru dengan Format ArrayBalok17.java
+1. Pertama Buat File baru dengan Format ArrayBalok17.java<p>
 
-2. Kemudian tambahkan Class Balok
+2. Kemudian tambahkan Class Balok<p>
 ![alt text](image-9.png)
 
-3. Pada Class Balok buatlah 3elemen
+3. Pada Class Balok buatlah 3elemen<p>
 ![alt text](image-10.png)
 
-4. Lalu tambahkan bilArray untuk konstruktor pada class Balok
+4. Lalu tambahkan bilArray untuk konstruktor pada class Balok<p>
 ![alt text](image-11.png)
 
-5. Terakhir tampilkan hitungVolume() di dalam looping
+5. Terakhir tampilkan hitungVolume() di dalam looping<p>
 ![alt text](image-12.png)
 
 6. Dan inilah Outputnya<p>
