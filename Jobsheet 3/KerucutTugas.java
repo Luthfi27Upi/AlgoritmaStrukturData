@@ -1,0 +1,19 @@
+public class KerucutTugas {
+    int jariJari;
+    int sisiMiring;
+
+    KerucutTugas(int j, int s) {
+        jariJari = j;
+        sisiMiring = s;
+    }
+
+    double hitungLuas() {
+        return (3.14 * jariJari * sisiMiring) + (3.14 * jariJari * jariJari);
+    }
+
+    double hitungVolume() {
+        double tinggi = Math.sqrt(Math.pow(sisiMiring, 2) - Math.pow(jariJari, 2));
+        System.out.println(tinggi);
+        return (3.14 * jariJari * jariJari * tinggi) / 3;
+    }
+}

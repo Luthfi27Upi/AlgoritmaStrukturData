@@ -11,7 +11,7 @@ public class ArrayObects17 {
 
         for (int i=0; i<3; i++)
         {
-            ppArray[i] = new PersegiPanjang();
+            ppArray[i] = new PersegiPanjang() ;
             System.out.println("Persegi Panjang ke-" +i);
             System.out.print("Masukkan Panjang : ");
             ppArray[i].panjang = sc.nextInt();
