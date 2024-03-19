@@ -1,31 +1,45 @@
 import java.util.Scanner;
 
 public class MainPangkat17 {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
-        System.out.println("Masukkan Jumlah Elemen Yang Dihitung");
-        int Elemen = sc.nextInt();
+        System.out.println("Pilih menu : ");
+        System.out.println("1. Brute Force");
+        System.out.println("2. Devide Conquer");
+        System.out.print("==> ");
+        int menu = sc.nextInt();
 
-        Pangkat17[] png = new Pangkat17[Elemen];
-        for(int i=0; i<Elemen; i++){
-            png[i] = new Pangkat17();
-            System.out.println("Masukkan Nilai Yang Hendak Dipangkatkan ");
-            png[i].nilai = sc.nextInt();    
-            System.out.println("Masukkan Nilai Pemangkat : ");
-            png[i].pangkat = sc.nextInt();
+        System.out.println("===========================");
+        System.out.println("Masukkan jumlah elemen yang dihitung : ");
+        int elemen = sc.nextInt();
+
+        Pangkat17[] png = new Pangkat17[elemen];
+        for (int i = 0; i < elemen; i++) {
+            System.out.println("Masukkan nilai yang hendak dipangkatkan : ");
+            int nilai = sc.nextInt();
+            System.out.println("Masukkan nilai pemangkat : ");
+            int pangkat = sc.nextInt();
+            png[i] = new Pangkat17(nilai, pangkat);
         }
-        System.out.println("HASIL PANGKAT - BRUTE FORCE");
-        for(int i=0; i<Elemen; i++){
-            System.out.println("Hasil Dari " + png[i].nilai+ " Pangkat "
-                                             + png[i].pangkat+ " Adalah "
-                                             + png[i].pangkatBF(png[i].nilai, png[i].pangkat));
-        }
-        System.out.println("HASIL PANGKAT - DIVIDE AND CONQUER");
-        for(int i=0; i<Elemen; i++){
-            System.out.println("Hasil Dari " + png[i].nilai+ " Pangkat "
-                                             + png[i].pangkat+ " Adalah "
-                                             + png[i].pangkatDC(png[i].nilai, png[i].pangkat));
+
+        switch (menu) {
+            case 1:
+                System.out.println("HASIL PANGKAT - BRUITE FORCE");
+                for (int i = 0; i < png.length; i++) {
+                    System.out.println("Hasil dari " + png[i].nilai + " pangkat " + png[i].pangkat + " adalah "
+                            + png[i].pangkatBF(png[i].nilai, png[i].pangkat));
+                }
+                break;
+            case 2:
+                System.out.println("HASIL PANGKAT - DIVIDE AND CONQUER");
+                for (int i = 0; i < png.length; i++) {
+                    System.out.println("Hasil dari " + png[i].nilai + " pangkat " + png[i].pangkat + " adalah "
+                            + png[i].pangkatDC(png[i].nilai, png[i].pangkat));
+                }
+                break;
+            default:
+                System.out.println("Menu Invalid!");
+                break;
         }
     }
 }
