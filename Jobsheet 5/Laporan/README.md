@@ -52,6 +52,37 @@ c. Mengapa syarat dari perulangan j adalah j<listMhs.length-i ?<br>
 d. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan 
 berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh
 
-<b>Percobaan 2 : Selection Sort</b>
+<b>5.2 Percobaan 2 : Selection Sort</b>
 
-1. 
+1. Tambahkan method <i>SelectionSort</i> secara ascending<br>
+![alt text](image-9.png)
+
+2. Kemudian Tambahkan Method Selection Sort di class Main<br>
+![alt text](image-10.png)
+
+3. Dan ini adalah hasil outputnya<br>
+![alt text](image-11.png)
+
+<b>5.21 Pertanyaan 2</b>
+
+Di dalam method selection sort, terdapat baris program seperti di bawah ini:<br><i>
+for(int i=0; i<listMhs.length-1; i++){<br>
+    int idxMin = 1;<br>
+    for(int j=i+1; j<listMhs.length; j++){<br>
+        if(listMhs[j].ipk < listMhs[idxMin].ipk){<br>
+        idxMin = j;<br></i>
+Untuk apakah proses tersebut, jelaskan!<br>
+
+<b>5.3 Percobaan 3 : Insertion Sort</b>
+
+1. Tambahkan method <i>InsertionSort</i> secara ascending<br>
+![alt text](image-12.png)
+2. Kemudian Tambahkan Method Insertion Sort di class Main<br>
+![alt text](image-13.png)
+3. Dan ini adalah hasil outputnya<br>
+![alt text](image-14.png)
+
+<b>5.31 Pertanyaan 3</b>
+
+Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting 
+dengan cara descending
