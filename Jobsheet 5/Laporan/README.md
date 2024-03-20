@@ -115,11 +115,11 @@ Tentukan:
 2. top_acceleration terendah menggunakan Divide and Conquer!
 3. Rata-rata top_power dari seluruh mobil menggunakan Brute Force!
 
-Berikut adalah kode programnya : 
+Berikut adalah kode programnya : <br>
 ![alt text](image-21.png)
 
-Berikut adalah kode program main : 
+Berikut adalah kode program main : <br>
 ![alt text](image-22.png)
 
-Dan inilah hasil dari kode program tersebut :
+Dan inilah hasil dari kode program tersebut :<br>
 ![alt text](image-23.png)
