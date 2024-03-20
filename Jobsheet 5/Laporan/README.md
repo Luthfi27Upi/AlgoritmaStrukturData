@@ -99,3 +99,12 @@ Dan Ini adalah Output dari Kode Modifikasi</b><br>
 ![alt text](image-16.png)
 
 <b>Latihan</b>
+
+Berikut adalah kode program untuk Hotel<br>
+![alt text](image-17.png)<br>
+
+Berikut adalah kode program untuk HotelService<br>
+![alt text](image-18.png)<br>
+
+Berikut adalah kode program untuk HotelMain<br>
+![alt text](image-19.png)
