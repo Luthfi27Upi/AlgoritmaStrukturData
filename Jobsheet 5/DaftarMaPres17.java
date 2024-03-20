@@ -32,12 +32,14 @@ public class DaftarMaPres17 {
         for(int i=0; i<listMhs.length-1; i++){
             int idxMin = 1;
             for(int j=i+1; j<listMhs.length; j++){
-                idxMin = j;
+                if(listMhs[j].ipk < listMhs[idxMin].ipk){
+                    idxMin = j;
+                }
             }
-        }
         Mahasiswa17 tmp = listMhs[idxMin];
         listMhs[idxMin] = listMhs[i];
         listMhs[i] = tmp;
+        }
     }
     void InsertionSort(){
         for(int i=1; i<listMhs.length; i++){

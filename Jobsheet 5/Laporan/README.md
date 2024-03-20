@@ -51,3 +51,7 @@ b. Mengapa syarat dari perulangan i adalah i<listMhs.length-1 ?<br>
 c. Mengapa syarat dari perulangan j adalah j<listMhs.length-i ?<br>
 d. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan 
 berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh
+
+<b>Percobaan 2 : Selection Sort</b>
+
+1. 
