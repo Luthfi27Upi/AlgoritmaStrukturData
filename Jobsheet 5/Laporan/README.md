@@ -35,22 +35,28 @@
 
 <b>5.11 Pertanyaan 1</b>
 
-1. Terdapat di method apakah proses bubble sort?
+1. Terdapat di method apakah proses bubble sort?<br><b>
+Proses bubble sort terdapat di dalam method bubbleSort().</b>
 2. Di dalam method bubbleSort(), terdapat baris program seperti di bawah ini<br><i>
 if(listMhs[j].ipk > listMhs[j-1].ipk){<br>
     Mahasiswa17 tmp = listMhs[j];<br>
     listMhs[j] = listMhs[j-1];<br>
     listMhs[j-1] = tmp;<br>
 }<br></i>
-Untuk apakah proses tersebut?
+Untuk apakah proses tersebut?<br><b>
+Proses tersebut adalah bagian dari algoritma bubble sort yang bertanggung jawab untuk menukar posisi dua elemen dalam array jika kondisi tertentu terpenuhi, yaitu jika elemen ke-j memiliki IPK yang lebih besar dari elemen ke-(j-1). Ini dilakukan untuk mengurutkan elemen dari yang terkecil ke yang terbesar.</b>
 3. Perhatikan perulangan di dalam bubbleSort() di bawah ini:<br><i>
 for(int i=0; i<listMhs.length-1; i++){<br>
 for(int j=1; j<listMhs.length-i; j++){<br></i>
-a. Apakah perbedaan antara kegunaan perulangan i dan perulangan j? <br>
-b. Mengapa syarat dari perulangan i adalah i<listMhs.length-1 ?<br>
-c. Mengapa syarat dari perulangan j adalah j<listMhs.length-i ?<br>
+a. Apakah perbedaan antara kegunaan perulangan i dan perulangan j? <br><b>
+Perbedaan antara penggunaan perulangan i dan j adalah bahwa perulangan i digunakan untuk mengontrol iterasi melalui seluruh array, sementara perulangan j digunakan untuk membandingkan dan menukar elemen-elemen terkait dalam setiap iterasi i.</b>
+b. Mengapa syarat dari perulangan i adalah i<listMhs.length-1 ?<br><b>
+Syarat dari perulangan i adalah i < listMhs.length - 1 karena setelah setiap iterasi i, elemen terakhir sudah pasti berada di posisi yang benar setelah berjalannya algoritma bubble sort. Oleh karena itu, tidak perlu membandingkan elemen terakhir di setiap iterasi.</b>
+c. Mengapa syarat dari perulangan j adalah j<listMhs.length-i ?<br><b>
+ Syarat dari perulangan j adalah j < listMhs.length - i karena setiap iterasi i akan mengurangi jumlah elemen yang perlu dibandingkan di setiap iterasi j. Pada awalnya, perulangan j akan membandingkan semua elemen di array, tetapi setiap kali iterasi i berjalan, elemen terakhir dalam array sudah pasti berada di posisi yang benar, sehingga tidak perlu dibandingkan lagi.</b>
 d. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan 
-berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh
+berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh<br><b>
+Jika banyak data di dalam listMhs adalah 50, maka perulangan i akan berlangsung sebanyak 49 kali. Ini karena setiap iterasi i mengurangi jumlah elemen yang harus dibandingkan. Tahap bubble sort yang ditempuh adalah sebanyak 49 tahap, karena setiap iterasi i memindahkan setidaknya satu elemen ke posisi yang benar.</b>
 
 <b>5.2 Percobaan 2 : Selection Sort</b>
 
@@ -71,7 +77,8 @@ for(int i=0; i<listMhs.length-1; i++){<br>
     for(int j=i+1; j<listMhs.length; j++){<br>
         if(listMhs[j].ipk < listMhs[idxMin].ipk){<br>
         idxMin = j;<br></i>
-Untuk apakah proses tersebut, jelaskan!<br>
+Untuk apakah proses tersebut, jelaskan!<br><b>
+Didalam proses method Selection Sort yaitu salah satu algoritma pengurutan sederhana yang bekerja dengan cara memilih elemen dengan nilai terkecil pada setiap iterasi dan menukar elemen tersebut dengan elemen pada posisi iterasi saat itu. Tujuan dari proses ini adalah untuk menyusun elemen-elemen dalam urutan yang benar secara berurutan.
 
 <b>5.3 Percobaan 3 : Insertion Sort</b>
 
@@ -85,4 +92,10 @@ Untuk apakah proses tersebut, jelaskan!<br>
 <b>5.31 Pertanyaan 3</b>
 
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting 
-dengan cara descending
+dengan cara descending<br><b>
+Dibawah ini adalah kode yang sudah saya modifikasi</b>
+![alt text](image-15.png)<br><b>
+Dan Ini adalah Output dari Kode Modifikasi</b>
+![alt text](image-16.png)
+
+<b>Latihan</b>

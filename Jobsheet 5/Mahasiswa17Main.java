@@ -25,7 +25,7 @@ public class Mahasiswa17Main {
         list.SelectionSort();
         list.tampil();
 
-        System.out.println("Data Mahasiswa Setelah Sorting ASC Berdasarkan IPK");
+        System.out.println("Data Mahasiswa Setelah Sorting Desc Berdasarkan IPK");
         list.InsertionSort();
         list.tampil(); 
     }   
