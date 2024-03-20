@@ -93,9 +93,9 @@ Didalam proses method Selection Sort yaitu salah satu algoritma pengurutan seder
 
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting 
 dengan cara descending<br><b>
-Dibawah ini adalah kode yang sudah saya modifikasi</b>
+Dibawah ini adalah kode yang sudah saya modifikasi</b><br>
 ![alt text](image-15.png)<br><b>
-Dan Ini adalah Output dari Kode Modifikasi</b>
+Dan Ini adalah Output dari Kode Modifikasi</b><br>
 ![alt text](image-16.png)
 
 <b>Latihan</b>
