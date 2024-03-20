@@ -44,19 +44,19 @@ Pada fakto *= i dilakukan operasi assignment dalam iterasi namun pada fakto = n 
 
 <b>4.2 Percobaan 2 : Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer</b>
 
-1. Buat Class Pangkat
+1. Buat Class Pangkat<br>
 ![alt text](image-7.png)
-2. Kemudian buat method <i>PangkatBF</i>
+2. Kemudian buat method <i>PangkatBF</i><br>
 ![alt text](image-8.png)
-3. Lalu tambahkan method <i>PangkatDC</i>
+3. Lalu tambahkan method <i>PangkatDC</i><br>
 ![alt text](image-9.png)
-4. Setelah semuanya selesai Buatlah Class <i>MainPangkat</i>
+4. Setelah semuanya selesai Buatlah Class <i>MainPangkat</i><br>
 ![alt text](image-10.png)
-5. Kemudian Buat Array of Objek pada fungsi main
+5. Kemudian Buat Array of Objek pada fungsi main<br>
 ![alt text](image-11.png)
-6. Terakhir tampilkan method <i>FaktoBF</i> dan <i>FaktoDC</i>
+6. Terakhir tampilkan method <i>FaktoBF</i> dan <i>FaktoDC</i><br>
 ![alt text](image-12.png)
-7. Maka hasilnya akan seperti ini
+7. Maka hasilnya akan seperti ini<br>
 ![alt text](image-13.png)
 
 <b>4.21 Pertanyaan 2</b>
