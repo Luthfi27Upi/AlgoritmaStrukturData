@@ -108,3 +108,6 @@ Berikut adalah kode program untuk HotelService<br>
 
 Berikut adalah kode program untuk HotelMain<br>
 ![alt text](image-19.png)
+
+Dan ini adalah hasil dari kode program 
+![alt text](image-20.png)

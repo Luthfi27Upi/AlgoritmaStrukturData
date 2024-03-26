@@ -15,7 +15,7 @@ public class Hotel17Main {
             System.out.println("\nPilih opsi sorting:");
             System.out.println("1. Harga (dari termurah ke termahal)");
             System.out.println("2. Rating bintang (dari tertinggi ke terendah)");
-            System.out.println("0. Keluar");
+            System.out.println("3. Keluar");
             System.out.print("Pilihan Anda: ");
             choice = sc17.nextInt();
 
@@ -30,13 +30,13 @@ public class Hotel17Main {
                     hotelService.bubbleSortRating();
                     hotelService.tampilAll();
                     break;
-                case 0:
+                case 3:
                     System.out.println("Terima kasih.");
                     break;
                 default:
                     System.out.println("Pilihan tidak valid. Silakan pilih lagi.");
             }
-        } while (choice != 0);
+        } while (choice != 3);
 
         sc17.close();
     }
