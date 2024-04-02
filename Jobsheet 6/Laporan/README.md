@@ -27,7 +27,7 @@ Hasil Kode Program :
 ![alt text](image-4.png)<br>
 ![alt text](image-5.png)<br>
 
-<b>6.11 Pertanyaan 1</b>
+<b>6.11 Pertanyaan 1 : Sequential Search</b>
 
 1. Jelaskan fungsi break yang ada pada method FindSeqSearch!<br>
 <b>Jawab : Untuk menghentikan perulangan ketika telah menemukan nilai cari pada kumpulan atribut kode buku di array of object.</b><br>
@@ -57,7 +57,7 @@ Hasil Kode Program :
 
 ![alt text](image-13.png)<br>
 
-<b>Pertanyaan 2 : Binary Search</b>
+<b>6.21 Pertanyaan 2 : Binary Search</b>
 
 1. Tunjukkan pada kode program yang mana proses divide dijalankan!<br><b>
 Jawab : Ketika program membagi suatu data menjadi dua bagian antara kiri dan kanan yang dipisahkan oleh variable mid<br><i>
@@ -78,7 +78,7 @@ Jawab : Hasil tidak sesuai dikarenakan data tidak urut, cara mengubahnya adalah 
 ![alt text](image-16.png)<br>
 ![alt text](image-17.png)<br>
 
-<b>Percobaan 3 : Merge Sort</b>
+<b>6.3 Percobaan 3 : Merge Sort</b>
 
 Kode Program : 
 
@@ -86,3 +86,26 @@ Kode Program :
 ![alt text](image-19.png)<br>
 
 Hasil Kode Program :
+
+![alt text](image-20.png)
+
+<b>Latihan Praktikum</b>
+
+1. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
+- Ubah tipe data dari kode Buku yang awalnya int menjadi String<br>
+![alt text](image-22.png)
+- Tambahkan method untuk pencarian kode Buku (bertipe data String) dengan menggunakan 
+sequential search dan binary search.<br>
+![alt text](image-23.png)<br>
+Hasil Kode Program<br>
+![alt text](image-3.png)<br>
+![alt text](image-4.png)<br>
+![alt text](image-13.png)<br>
+2. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
+- Tambahkan method pencarian judul buku menggunakan sequential search dan binary 
+search. Sebelum dilakukan searching dengan binary search data harus dilakukan pengurutan 
+dengan menggunakan algoritma Sorting (bebas pilih algoritma sorting apapun)! Sehingga 
+ketika input data acak, maka algoritma searching akan tetap berjalan
+- Buat aturan untuk mendeteksi hasil pencarian judul buku yang lebih dari 1 hasil dalam 
+bentuk kalimat peringatan! Pastikan algoritma yang diterapkan sesuai dengan kasus yang 
+diberikan

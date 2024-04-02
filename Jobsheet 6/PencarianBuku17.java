@@ -17,17 +17,6 @@ public class PencarianBuku17 {
         }
     }
 
-    public int FindSeqSearch(String cari) {
-        int posisi = -1;
-        for (int j = 0; j < listBk.length; j++) {
-            if (listBk[j].kodeBuku.equals(cari)) {
-                posisi = j;
-                break;
-            }
-        }
-        return posisi;
-    }
-
     public void TampilPosisi(String x, int pos) {
         if (pos != -1) {
             System.out.println("Data : " + x + " ditemukan pada indeks " + pos);
@@ -69,6 +58,17 @@ public class PencarianBuku17 {
                 }
             }
         }
+    }
+
+    public int FindSeqSearch(String cari) {
+        int posisi = -1;
+        for (int j = 0; j < listBk.length; j++) {
+            if (listBk[j].kodeBuku.equals(cari)) {
+                posisi = j;
+                break;
+            }
+        }
+        return posisi;
     }
 
     public int FindBinarySearch(String cari, int left, int right) {
