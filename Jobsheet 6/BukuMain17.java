@@ -20,7 +20,7 @@ public class BukuMain17 {
             int tahunTerbit = s.nextInt();
             System.out.print("Pengarang     : ");
             String pengarang = s1.nextLine();
-            System.out.print("Stock         : ");
+            System.out.print("Stock         : ");   
             int stock = s.nextInt();
 
             Buku17 m = new Buku17(kodeBuku, judulBuku, tahunTerbit, pengarang, stock);

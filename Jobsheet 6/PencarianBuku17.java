@@ -65,7 +65,7 @@ public class PencarianBuku17 {
         for (int j = 0; j < listBk.length; j++) {
             if (listBk[j].kodeBuku.equals(cari)) {
                 posisi = j;
-                break;
+                break;  
             }
         }
         return posisi;
