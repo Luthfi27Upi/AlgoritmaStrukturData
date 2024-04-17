@@ -13,14 +13,14 @@
 <p align = "center"> Kelas : 1B </p>
 <hr><br>
 
-Kode Program Kasus17
-![alt text](image.png)
+Kode Program Kasus17<br>
+![alt text](image.png)<br>
 
-Kode Program Kasus17List
-![alt text](image-2.png)
+Kode Program Kasus17List<br>
+![alt text](image-2.png)<br>
 
-Kode Program Kasus17Main
-![alt text](image-3.png)
+Kode Program Kasus17Main<br>
+![alt text](image-3.png)<br>
 
-Hasil Output Kode Program
-![alt text](image-1.png)
+Hasil Output Kode Program<br>
+![alt text](image-1.png)<br>
