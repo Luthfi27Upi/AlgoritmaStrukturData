@@ -1,43 +1,29 @@
-import java.util.Arrays;
 import java.util.Scanner;
 public class Kasus17Main {
 
     public static void main(String[] args) {
-        int[] numbers = {35, 10, 3, 43, 39, 17, 35, 27, 7, 28, 17, 34, 42, 24, 45, 44, 31};
 
-        Kasus17 data = new Kasus17(numbers);
+        int[] kasus_numbers = {35, 10, 3, 43, 39, 17, 35, 27, 7, 28, 17, 34, 42, 24, 45, 44, 31 };
 
-        System.out.println("Data Awal :");
-        System.out.println(Arrays.toString(data.getNumbers()));
+        Kasus17 kasus = new Kasus17(kasus_numbers);
 
-        Kasus17List.selectionSortAscending(data.getNumbers());
-        System.out.println("Ascending:");
-        for (int number : data.getNumbers()) {
-            System.out.print(number + " ");
-        }
-        Kasus17List.selectionSortAscending(data.getNumbers());
-        int target = 24;
-        int index = Kasus17List.binarySearch(data.getNumbers(), target);
+        System.out.println("+++ UTS Luthfi Triaswangga +++");
 
-        if (index != -1) {
-            System.out.print("Angka " + target + " ditemukan pada indeks " + index);
-        } else {
-            System.out.println("Angka " + target + " tidak ditemukan");
-        }
+        System.out.println("\nData Awal");
+        kasus.showAll();
+        kasus.search(39);
 
-        Kasus17List.selectionSortDescending(data.getNumbers());
-        System.out.println("\nDescending:");
-        for (int number : data.getNumbers()) {
-            System.out.print(number + " ");
-        }
-        Kasus17List.selectionSortDescending(data.getNumbers());
-        int trgt = 41;
-        int indx = Kasus17List.binarySearch(data.getNumbers(), trgt);
+        System.out.println("\nData Binary Searching Ascending");
+        kasus.selectionSortASC();
+        kasus.showAll();
+        kasus.search(35);
 
-        if (indx != -1) {
-            System.out.println("Angka " + trgt + " ditemukan pada indeks " + indx);
-        } else {
-            System.out.println("Angka " + trgt + " tidak ditemukan");
-        }
+        System.out.println("\nData Binary Searching Descending");
+        kasus.selectionSortDESC();
+        kasus.showAll();
+        kasus.search(43);
+
+        System.out.println("Data Searching Tidak Ada");
+        kasus.search(33);
     }
 }

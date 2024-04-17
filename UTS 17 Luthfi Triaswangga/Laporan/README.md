@@ -14,13 +14,10 @@
 <hr><br>
 
 Kode Program Kasus17<br>
-![alt text](image.png)<br>
-
-Kode Program Kasus17List<br>
-![alt text](image-2.png)<br>
+![alt text](image-6.png)<br>
 
 Kode Program Kasus17Main<br>
-![alt text](image-3.png)<br>
+![alt text](image-7.png)<br>
 
 Hasil Output Kode Program<br>
-![alt text](image-1.png)<br>
+![alt text](image-5.png)<br>
