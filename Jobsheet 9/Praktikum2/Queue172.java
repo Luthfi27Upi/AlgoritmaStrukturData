@@ -1,12 +1,12 @@
-package Praktikum1;
+package Praktikum2;
 
-public class Queue17 {
-    int[] data;
+public class Queue172 {
+    Nasabah17[] data;
     int front, rear, size, max;
 
-    Queue17(int n) {
+    Queue172(int n) {
         max = n;
-        data = new int[max];
+        data = new Nasabah17[max];
         size = 0;
         front = rear = -1;
     }
@@ -27,7 +27,7 @@ public class Queue17 {
         }
     }
 
-    void enqueue(int dt) {
+    void enqueue(Nasabah17 dt) {
         if (isFull()) {
             System.out.println("Queue sudah penuh");
             System.exit(1);
@@ -46,8 +46,8 @@ public class Queue17 {
         }
     }
 
-    public int dequeue() {
-        int dt = 0;
+    public Nasabah17 dequeue() {
+        Nasabah17 dt = new Nasabah17();
         if (isEmpty()) {
             System.out.println("Queue masih kosong");
             System.exit(1);
@@ -69,22 +69,34 @@ public class Queue17 {
 
     void peek() {
         if (!isEmpty()) {
-            System.out.println("Elemen terdepan : " + data[front]);
+            System.out.println("Elemen terdepan : " + data[front].norek + " " + data[front].nama + " "
+                    + data[front].alamat + " " + data[front].umur + " " + data[front].saldo);
         } else {
             System.out.println("Queue masih kosong");
         }
     }
 
+    void peekRear() {
+        if (!isEmpty()) {
+            System.out.println("Elemen paling belakang : " + data[rear].norek + " " + data[rear].nama + " "
+                    + data[rear].alamat + " " + data[rear].umur + " " + data[rear].saldo);
+        } else {
+            System.out.println("Queue masih kosong");
+        }
+    }
+    
     void print() {
         if (isEmpty()) {
             System.out.println("Queue masih kosong");
         } else {
             int i = front;
             while (i != rear) {
-                System.out.print(data[i] + " ");
+                System.out.println(data[i].norek + " " + data[i].nama + " "
+                        + data[i].alamat + " " + data[i].umur + " " + data[i].saldo);
                 i = (i + 1) % max;
             }
-            System.out.println(data[i] + " ");
+            System.out.println(data[i].norek + " " + data[i].nama + " "
+                    + data[i].alamat + " " + data[i].umur + " " + data[i].saldo);
             System.out.println("Jumlah elemen = " + size);
         }
     }

@@ -1,9 +1,13 @@
+package Praktikum2;
+
 public class Nasabah17 {
-    String norek;
-    String nama;
-    String alamat;
+    String norek, nama, alamat;
     int umur;
     double saldo;
+
+    Nasabah17(){
+        
+    }
 
     Nasabah17(String norek, String nama, String alamat, int umur, double saldo){
         this.norek = norek;
