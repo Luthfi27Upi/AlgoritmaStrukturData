@@ -4,7 +4,7 @@ public class QueueNasabah17 {
 
     QueueNasabah17(int n) {
         max = n;
-        data = new Nasabah07[max];
+        data = new Nasabah17[max];
         size = 0;
         front = rear = -1;
     }
@@ -79,8 +79,8 @@ public class QueueNasabah17 {
         }
     }
 
-    public Nasabah07 Dequeue() {
-        Nasabah07 dt = new Nasabah07(null, null, null, max, front);
+    public Nasabah17 Dequeue() {
+        Nasabah17 dt = new Nasabah17(null, null, null, max, front);
         if (IsEmpty()) {
             System.out.println("Queue masih kosong");
             System.exit(1);

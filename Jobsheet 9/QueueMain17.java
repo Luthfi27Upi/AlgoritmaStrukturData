@@ -6,7 +6,7 @@ public class QueueMain17 {
     
         System.out.print("Masukkan Kapasitas Queue : ");
         int n = sc.nextInt();
-        Queue07 Q = new Queue17(n);
+        Queue17 Q = new Queue17(n);
     
         int pilih = 0;
         do {
