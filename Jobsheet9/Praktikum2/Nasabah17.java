@@ -1,4 +1,4 @@
-package Jobsheet9.Praktikum2;
+package Praktikum2;
 
 public class Nasabah17 {
     String norek, nama, alamat;
