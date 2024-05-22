@@ -1,4 +1,4 @@
-package FormulaOne17;
+package FormulaOne;
 
 public class Node {
     String[] data;
