@@ -8,7 +8,6 @@ public class DoubleLinkedList {
         head = null;
         tail = null;
     }
-
     public void add(String[] data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -19,7 +18,6 @@ public class DoubleLinkedList {
             tail = newNode;
         }
     }
-
     public void print() {
         Node current = head;
         while (current != null) {
@@ -30,12 +28,9 @@ public class DoubleLinkedList {
             current = current.next;
         }
     }
-
     public Node getHead() {
         return head;
     }
-
-    // Sorting Menggunakan Selection Sort
     public void sortDriversByPoints() {
         if (head == null || head.next == null) {
             return;
@@ -57,13 +52,10 @@ public class DoubleLinkedList {
             current = current.next;
         }
     }
-
-    // Sorting Menggunakan Selection Sort
     public void sortTeamsByPoints() {
         if (head == null || head.next == null) {
             return;
         }
-
         Node current = head;
         while (current != null) {
             Node max = current;
@@ -80,7 +72,6 @@ public class DoubleLinkedList {
             current = current.next;
         }
     }
-
     public int getTeamPoint(DoubleLinkedList driversList, String driverName) {
         Node current = driversList.getHead();
         while (current != null) {

@@ -39,10 +39,10 @@ public class Main {
         });
 
         while (true) {
-            System.out.println("========================");
-            System.out.println("    FORMULA ONE (F1)    ");
-            System.out.println("Tahun 2024 - Musim ke-75");
-            System.out.println("========================");
+            System.out.println("====================================");
+            System.out.println("          FORMULA ONE (F1)    ");
+            System.out.println("      Tahun 2024 - Musim ke-75");
+            System.out.println("=====================================");
             System.out.println("1. Tampilkan Data Pembalap");
             System.out.println("2. Tampilkan Data Tim");
             System.out.println("3. Tampilkan Data Jadwal Pertandingan");
@@ -50,7 +50,7 @@ public class Main {
             System.out.println("5. Tampilkan Poin Pembalap");
             System.out.println("6. Tampilkan Poin Tim");
             System.out.println("7. Keluar");
-            System.out.println("========================");
+            System.out.println("======================================");
             System.out.print("Masukkan Pilihan: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -87,7 +87,7 @@ public class Main {
     }
 
     public static void dataPembalapDanTim() {
-        String[][] drivers = {
+        String[][] drivers = { 
             {"44,", "Lewis Hamilton,", "Mercedes AMG Petronas,", "Inggris,", "0"},
             {"63,", "George Russel,", "Mercedes AMG Petronas,", "Inggris,", "0"},
             {"16,", "Charles Leclerc,", "Scuderia Ferrari,", "Monako,", "0"},
