@@ -4,10 +4,10 @@ public class DoubleLinkedLists {
     Node head;
     int size;
 
-    public DoubleLinkedLists() {
-        head = null;
-        size = 0;
-    }
+        public DoubleLinkedLists() {
+            head = null;
+            size = 0;
+        }
     public boolean isEmpty() {
         return head == null;
     }
