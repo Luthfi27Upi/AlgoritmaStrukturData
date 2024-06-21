@@ -1,13 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package FormulaOne;
-
-public class Node {
-    String[] data;
-    Node prev;
-    Node next;
-
-    public Node(String[] data) {
-        this.data = data;
-        this.prev = null;
-        this.next = null;
+//ALVIAN NURR FIRDAUS
+//2141720022
+/**
+ *
+ * @author Alvian
+ */
+public class node {
+    kendaraan data;
+    node next;
+    
+    node(kendaraan data,node next) {
+        this.data=data;
+        this.next=next;
     }
 }

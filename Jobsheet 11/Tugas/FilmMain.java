@@ -9,7 +9,7 @@ public class FilmMain {
         Scanner sc = new Scanner(System.in);
         FilmDLL17 filmDLL = new FilmDLL17();
         int pilihan = -1;
-        int id, index;
+        int id, index;  
         String judul;
         double rating;
 
