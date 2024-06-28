@@ -13,6 +13,7 @@ public class FilmMain {
         String judul;
         double rating;
 
+        
         do {
             System.out.println("=====================================");
             System.out.println("|        DATA FILM LAYAR LEBAR      |");
