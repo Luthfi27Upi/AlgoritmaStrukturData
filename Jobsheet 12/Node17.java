@@ -12,4 +12,5 @@ public class Node17 {
         this.data = data;
         this.right = null;
     }
+    
 }

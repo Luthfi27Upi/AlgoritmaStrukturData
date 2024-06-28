@@ -19,4 +19,5 @@ public class BinaryTreeArrayMain17 {
         bta.traversePostOrder(0);
         System.out.println("");
     }
+    
 }

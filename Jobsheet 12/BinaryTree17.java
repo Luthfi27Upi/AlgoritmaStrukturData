@@ -7,6 +7,7 @@ public class BinaryTree17 {
         root = null;
     }
 
+    
     boolean isEmpty() {
         return root == null;
     }

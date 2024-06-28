@@ -7,6 +7,7 @@ public class BinaryTreeArray17 {
         data = new int[10];
     }
 
+    
     void populateData(int data[], int idxLast) {
         this.data = data;
         this.idxLast = idxLast;
